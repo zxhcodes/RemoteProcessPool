@@ -1,2 +1,1 @@
-# RemoteProcessPool
-用服务器端的进程池执行本地任务，客户端调用执行接口会阻塞等待结果，所以任务执行时间不宜太长(&lt;30秒)
+基于celery的消息中间件工具库[kombu](https://github.com/celery/kombu)实现，支持redis、rabbitmq，建议使用redis，同样的环境往返速度是rabbitmq的5倍左右。
